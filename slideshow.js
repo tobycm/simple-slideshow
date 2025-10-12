@@ -49,4 +49,4 @@ class Slideshow {
   }
 }
 
-document.querySelectorAll(".slideshow").forEach((container) => new Slideshow(container));
+document.addEventListener("DOMContentLoaded", () => document.querySelectorAll(".slideshow").forEach((container) => new Slideshow(container)));
