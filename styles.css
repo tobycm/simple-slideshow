@@ -1,0 +1,44 @@
+body {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: x-large;
+  margin: 2vh 2vw;
+}
+
+small {
+  color: #a7a7a7;
+}
+
+body {
+  background-color: #06091c;
+  color: #fff;
+}
+
+a {
+  color: greenyellow;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:visited {
+  color: red;
+}
+
+pre:has(code) {
+  background-color: #4d4d4d55;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.slideshow .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.m0 {
+  margin: 0;
+}

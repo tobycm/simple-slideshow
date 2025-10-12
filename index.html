@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slideshow!!!</title>
+
+    <script src="slideshow.js"></script>
+    <link rel="stylesheet" href="slideshow.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>ever wanted to add a slideshow on your website??</h1>
+    <p>powerpoint on html!!!! jkjk</p>
+
+    <h2>demo:</h2>
+
+    <div class="slideshow" style="width: 80vw; height: 40vh; margin: 10vh 10vw">
+      <p class="prev">⬅️</p>
+      <p class="next">➡️</p>
+
+      <div class="slide">
+        <img src="assets/club.webp" alt="a nice image" style="width: 100%; height: 100%; object-fit: cover" />
+        <h3 class="m0" style="margin-top: 1vh">slide 1</h3>
+        <p class="m0" style="margin-top: 1vh">this is slide 1</p>
+      </div>
+
+      <div class="slide" style="flex-direction: row">
+        <img src="assets/club.webp" alt="a nice image" style="width: 100%; height: 100%; object-fit: cover" />
+
+        <div style="width: 60%; margin: 1vh 1vw">
+          <h3>slide 2</h3>
+          <p>this is slide 2</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h3>slide 3</h3>
+        <p>this is slide 3</p>
+      </div>
+    </div>
+
+    <h2>how to use:</h2>
+
+    <h3>1. include the necessary js and css:</h3>
+    <pre><code>&lt;script src="https://tobycm.github.io/simple-slideshow/slideshow.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="https://tobycm.github.io/simple-slideshow/slideshow.css" /&gt;</code></pre>
+
+    <p>
+      source: <a href="https://tobycm.github.io/simple-slideshow/slideshow.js">slideshow.js</a>,
+      <a href="https://tobycm.github.io/simple-slideshow/slideshow.css">slideshow.css</a>
+    </p>
+
+    <h3>2. add the necessary html elements:</h3>
+
+    <p>previous button (.prev):</p>
+    <pre><code>&lt;p class="prev"&gt;⬅️&lt;/p&gt;</code></pre>
+    <p>next button (.prev):</p>
+    <pre><code>&lt;p class="next"&gt;➡️&lt;/p&gt;</code></pre>
+    <p>slide (.slide):</p>
+    <pre><code>&lt;div class="slide"&gt;
+  ...
+&lt;/div&gt;</code></pre>
+    <p>slideshow container (.slideshow):</p>
+    <pre><code>&lt;div class="slideshow" style="width: 25vw; height: 25vh"&gt;
+  ...
+&lt;/div&gt;</code></pre>
+    <p>make sure to set the width and height of the slideshow container</p>
+
+    <hr />
+
+    <footer>
+      <small>
+        made by <a href="https://github.com/tobycm">tobycm</a> with ❤️ &bullet; repo:
+        <a href="https://github.com/tobycm/simple-slideshow">tobycm/simple-slideshow</a></small
+      >
+    </footer>
+  </body>
+</html>
